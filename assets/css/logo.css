@@ -1,0 +1,97 @@
+/* Big logo */
+
+.logo-header {
+    position: relative;
+    top: 110%;
+    background: none;
+    width: 60%;
+    padding: 15% 0;
+    border-radius: 50%;
+    margin: 0 auto;
+    font: 4.5vmin monospace;
+}
+
+.logo-header b {
+    position: absolute;
+    left: 50%;
+    width: 0;
+    font-family: "Medula One";
+    font-size: 70px;
+}
+
+.logo-header b:nth-of-type(-n+11) {
+    bottom: 50%;
+    -ms-transform-origin: 0% 100%;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    padding-bottom: 50%;
+}
+
+.logo-header b:nth-of-type(1) {
+    -ms-transform: rotate(327deg);
+    -webkit-transform: rotate(327deg);
+    transform: rotate(327deg);
+}
+
+.logo-header b:nth-of-type(2) {
+    -ms-transform: rotate(333deg);
+    -webkit-transform: rotate(333deg);
+    transform: rotate(333deg);
+}
+
+.logo-header b:nth-of-type(3) {
+    -ms-transform: rotate(340deg);
+    -webkit-transform: rotate(340deg);
+    transform: rotate(340deg);
+}
+
+.logo-header b:nth-of-type(4) {
+    -ms-transform: rotate(350deg);
+    -webkit-transform: rotate(350deg);
+    transform: rotate(350deg);
+}
+
+.logo-header b:nth-of-type(5) {
+    -ms-transform: rotate(356deg);
+    -webkit-transform: rotate(356deg);
+    transform: rotate(356deg);
+}
+
+.logo-header b:nth-of-type(6) {
+    -ms-transform: rotate(362deg);
+    -webkit-transform: rotate(362deg);
+    transform: rotate(362deg);
+}
+
+.logo-header b:nth-of-type(7) {
+    -ms-transform: rotate(368deg);
+    -webkit-transform: rotate(368deg);
+    transform: rotate(368deg);
+}
+
+.logo-header b:nth-of-type(8) {
+    -ms-transform: rotate(374deg);
+    -webkit-transform: rotate(374deg);
+    transform: rotate(374deg);
+}
+
+.logo-header b:nth-of-type(9) {
+    -ms-transform: rotate(380deg);
+    -webkit-transform: rotate(380deg);
+    transform: rotate(380deg);
+}
+
+.logo-header b:nth-of-type(10) {
+    -ms-transform: rotate(386deg);
+    -webkit-transform: rotate(386deg);
+    transform: rotate(386deg);
+}
+
+.logo-header b:nth-of-type(11) {
+    -ms-transform: rotate(389deg);
+    -webkit-transform: rotate(389deg);
+    transform: rotate(389deg);
+}
+
+
+/* Tagline circle */
