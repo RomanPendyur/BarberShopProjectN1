@@ -80,14 +80,14 @@ font-family: "Bebas Neue";
 }
 
 .logo-header {
-    color: #ffd076;
+    color: #f2b541;
     font-family: "Medula One";
     text-align: center;
     font-size: 77px;
 }
 
 .logo-footer {
-    color: #ffd076;
+    color: #f2b541;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,7 +96,7 @@ font-family: "Bebas Neue";
 
 .logo-footer_lines {
     z-index: 10;
-    color: #ffd076;
+    color: #f2b541;
     font-weight: 900;
     padding: 0 5% 13% 5%;
 }
