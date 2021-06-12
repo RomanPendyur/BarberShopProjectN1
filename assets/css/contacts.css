@@ -1,7 +1,7 @@
 .left-container-form {
     background-color: gray;
     width: 55%;
-    height: 90%;
+    height: 86.5%;
     color: black;
 }
 
@@ -27,7 +27,7 @@
 .left-container-form-validation-mess {
     display: none;
     position: relative;
-    z-index: 4;
+    z-index: 999;
     padding: 4%;
     background-color: brown;
 }
@@ -43,4 +43,10 @@
 .left-container-form-btn {
     position: relative;
     z-index: 2;
+}
+
+.map-container {
+    width: 65%;
+    height: 60%;
+    background-color: brown;
 }
