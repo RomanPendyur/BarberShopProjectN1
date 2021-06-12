@@ -1,3 +1,4 @@
+'use strict'
 $(document).ready(function() {
     $('.aboutUs-slider').slick({
         arrows: false,
