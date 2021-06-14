@@ -1,4 +1,5 @@
 'use strict'
+
 const firstOption = document.querySelector('.blog_option_one');
 const secondOption = document.querySelector('.blog_option_two');
 const theedOption = document.querySelector('.blog_option_three');

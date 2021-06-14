@@ -47,12 +47,27 @@ font-family: "Bebas Neue";
     list-style: none;
 }
 
+.logo-must-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .logo-must {
-    background-image: url("/assets/img/img-logo-mush.svg");
+    background-image: url("/assets/img/2023997.svg");
     background-size: 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    width: 150px;
-    height: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+.logo-must-text {
+    color: #f2b541;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Medula One';
+    margin-left: 5%;
 }
 
 .menu-elements {
@@ -76,7 +91,7 @@ font-family: "Bebas Neue";
     justify-content: center;
     flex-direction: column;
     font-size: 70px;
-    margin-top: -10%;
+    margin-top: -9.6%;
 }
 
 .logo-header {
