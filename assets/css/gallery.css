@@ -1,0 +1,107 @@
+.menu-list-galery {
+    margin: -1.5% 0 0 -100%;
+}
+
+.gallery-container {
+    width: 190%;
+    height: 85%;
+    min-width: 0;
+}
+
+.gallery-slider-one {
+    margin-top: -5%;
+    position: relative;
+    padding: 5% 32% 0 32%;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-slider-pages {
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-slider-pages-foto {
+    width: 568px;
+    height: 400px;
+    border: 4px solid #f2b541;
+    background-color: #f2b541;
+}
+
+.gallery-container .slick-arrow {
+    position: absolute;
+    top: 40%;
+    font-size: 0;
+    width: 30px;
+    height: 80px;
+    background: none;
+    border: none;
+}
+
+.slick-track {
+    display: flex;
+    align-items: flex-start;
+}
+
+.gallery-container .slick-arrow.slick-prev {
+    left: 28%;
+    z-index: 5;
+    background-image: url("/assets/img/arrows/chevron-left-solid.svg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.gallery-container .slick-arrow.slick-next {
+    right: 28%;
+    z-index: 5;
+    background-image: url("/assets/img/arrows/chevron-right-solid.svg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.gallery-slider-two {
+    margin-top: 2%;
+}
+
+.gallery-slider-two-pages {
+    text-align: center;
+    width: 150px;
+    height: 250px;
+}
+
+.gallery-slider-two-pages-foto {
+    width: 270px;
+    height: 220px;
+    border: 4px solid #f2b541;
+    background-color: #f2b541;
+}
+
+.gallery-container-header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.gallery-heading {
+    font-family: "Oswald";
+    margin-left: -3%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.logo-must-gallery {
+    margin-right: 2%;
+}
+
+.left-logo-gallery-tag {
+    margin-top: 50%;
+    width: 230px;
+    height: 120px;
+    background-image: url("../img/logop.svg");
+    background-position: -2%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}

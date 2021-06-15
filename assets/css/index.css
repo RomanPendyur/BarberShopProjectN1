@@ -211,6 +211,10 @@ font-family: "Bebas Neue";
     padding-top: 10%;
 }
 
+.link-elements-link {
+    margin: 3% 2% 0 2%;
+}
+
 .links-elements-fb {
     background-image: url("../img/Facebook.svg");
     background-size: 47%;
@@ -264,4 +268,17 @@ font-family: "Bebas Neue";
     color: #E1E0E0;
     font-size: 26px;
     letter-spacing: 2px;
+}
+
+.menu-elements-link:hover {
+    border-bottom: 2px solid white;
+}
+
+.active-menu {
+    border-bottom: 2px solid #f2b541;
+}
+
+.button-information-gallery {
+    text-align: center;
+    text-decoration: none;
 }
