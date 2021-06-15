@@ -61,6 +61,14 @@
     left: 15%;
 }
 
+.third-blog-content-container-foto {
+    background-image: url("../img/Fotobarbershop/aboutUsFotoN4.jpg");
+}
+
+.four-blog-content-container-foto {
+    background-image: url("../img/barbers/Barber5.jpg");
+}
+
 .second-blog-content-container-text {
     position: relative;
     top: -36%;
@@ -82,7 +90,7 @@
 .logo-container-blog {
     position: relative;
     z-index: 2;
-    top: 10%;
+    top: 0%;
     left: -53%;
 }
 
@@ -105,6 +113,11 @@
 .third-blog-content-container-list-option {
     cursor: pointer;
     margin-top: 9%;
+}
+
+.blog_option-activ:hover {
+    border-bottom: 2px solid #f2b541;
+    margin-bottom: -2px;
 }
 
 .third-blog-content-container-list-option-text {
